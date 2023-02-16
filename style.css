@@ -1,0 +1,215 @@
+ :root {
+    /* Variaveis globais do projeto - COR */
+      
+      --cor-texto-principal:#FFFFFF;
+      --cor-suporte:#EC2F46;
+      --cor-fundo:#00030C;
+      --cor-texto-pequeno:#C0C0C0;
+
+    /* Variaveis globais do projeto - Tipografia */
+
+      --texto-principal:'Inter', sans-serif;
+
+
+ }
+
+
+ * {
+   margin: 0;
+   padding: 0;
+ }
+
+ body {
+   background-color: var(--cor-fundo);
+   color: var(--cor-texto-principal);
+ }
+
+ .principal {
+   background-image: url(Valorant\ Banner.svg);
+   background-repeat: no-repeat;
+   background-size: contain;
+   align-items: center;
+   text-align: center;
+ }
+
+ .container {
+   height: 100vh;
+   display: grid;      
+   grid-template-columns: 50% 50%;   
+}
+
+ .container__botao {
+   background-color: var(--cor-suporte);
+   border-radius: 8px;
+   padding: 1em;
+   color: var(--cor-texto-principal);
+   text-decoration: none;
+   font-family: var(--texto-principal);
+   font-weight: 400;
+   display: block;
+   text-align: center;
+   font-size: 1em;
+   margin-bottom: 1em;
+ }
+
+ .container__botao:hover {
+   background-color:#c02600f3;
+   border-radius: 8px;
+   padding: 1em;
+   color: var(--cor-texto-principal);
+   text-decoration: none;
+   font-family: var(--texto-principal);
+   font-weight: 400;
+   display: block;
+   text-align: center;
+   font-size: 1em;
+   margin-bottom: 1em;
+ }
+
+ .botao__secundario {
+   background-color: transparent;
+   border: 0.063em solid var(--cor-texto-principal);
+   font-size: 1em;
+   font-family: var(--texto-principal);
+
+ }
+
+ .container__aviso {
+   font-size: 0.75em;
+   color: var(--cor-texto-pequeno);
+   font-family: var(--texto-principal);
+   font-weight: 400;
+ }
+
+ .container__titulo {
+   font-family: var(--texto-principal);
+   font-weight: 700;
+   font-size: 1.75em;
+
+ }
+
+ .container__titulo__secundario {
+   font-family: var(--texto-principal);
+   font-size: 3em;
+   font-weight: 700;
+ }
+
+ .container__combo {
+   margin: 1em 0 2em 0;
+ }
+
+ .container__caixa {
+   margin: 0 6em;
+ }
+
+ .container__legenda__pequena {
+   font-size: 1em;
+   color: var(--cor-texto-pequeno);
+   font-family: var(--texto-principal);
+   font-weight: 400;
+ }
+
+ .container__plataforma {
+   width: 80%;
+   
+ }
+
+ .secundario {
+   align-items: center;
+   margin: 0 10em;
+ }
+
+ .container__titulo__secundario {
+   margin-bottom: 0.2em;
+ }
+
+ .terciario {
+    
+      align-items: center;
+      display: flex;
+      gap: 50px;
+    
+ }
+
+ .sublegenda {
+   font-size: 16px;
+ }
+
+ .secundario__botao {
+   display: block;
+   margin-top: 1em;
+   width: 10em;
+ }
+
+ .container__descricao {
+   padding: 2em;
+ }
+
+.dispositivos {
+   font-family: var(--texto-principal);
+   text-align: center;
+
+}
+
+.dispositivos_lista {
+   display: flex;
+   justify-content: center;
+   list-style-type: none;
+   margin: 5em 0;
+}
+
+.dispositivos__titulo {
+   font-size: 48px;
+   color: var(--cor-texto-principal);
+}
+
+.lista__item {
+   font-size: 32px;
+   color: var(--cor-texto-principal);
+}
+
+.rodape__lista {
+   display: flex;
+   list-style-type: none;
+   justify-content: center;
+   font-size: 1em;
+   gap: 16px;
+   margin: 2%;
+}
+
+.rodape {
+   font-family: var(--texto-principal);
+   
+}
+
+.lista__link {
+   text-decoration: none;
+}
+
+.rodape__texto {
+   font-size: 14px;
+   color: var(--cor-texto-pequeno);
+   text-align: center;
+   margin: 1%;
+}
+
+.rodape__logo {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   
+}
+
+.cor {
+   color: var(--cor-texto-principal);
+   text-decoration: none;
+
+}
+
+.lista__link :hover {
+   color:var(--cor-suporte);
+}
+
+
+ 
+
