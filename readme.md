@@ -11,6 +11,7 @@ Pratica de construção de página - Valorant VPlus
 * CSS
 
 * Flex-box
+* Bootstrap
 
 ## Feito por:
 
